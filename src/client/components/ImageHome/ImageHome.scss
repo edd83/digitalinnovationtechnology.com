@@ -1,0 +1,25 @@
+@import '../../style';
+
+.imageHome {
+    display: block;
+    background: #16222a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #16222a, #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #16222a, #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 600px;
+    font-family: $main-font;
+    color: $color-white;
+}
+
+.quote {
+    padding-top: 150px;
+    padding-left: 50px;
+    font-size: 50px;
+    line-height: 100px;
+}
+
+@media screen and (max-width: 680px) {
+  .quote {
+    padding-top: 180px;
+    font-size: 25px;
+  }
+}

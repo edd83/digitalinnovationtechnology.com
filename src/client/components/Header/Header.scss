@@ -1,0 +1,30 @@
+@import '../../style';
+
+.header {
+  display: block;
+  height: 50px;
+  background-color: $color-black;
+  color: $color-white;
+}
+
+.header a {
+  color: $color-white;
+  text-decoration: none;
+}
+
+.menuLeft {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  width: 400px;
+  float: right;
+  height: 100%;
+  line-height: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+// Variables
+$main-font: 'Lato', sans-serif;
+
+$color-black: #1a1a1a;
+$color-white: #FFFFFF;
+
+$react-color: #00d8ff;
+$google-green: #3cba54;
+$google-yellow: #f4c20d;
+$google-red: #db3236;
+$google-blue: #4885ed;
+$microsoft-grey: #7b7b7b;
+
+// Global css
+html, body {
+  background-color: white;
+  min-width: 700px;
+  font-family: $main-font;
+}

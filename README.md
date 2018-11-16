@@ -2,10 +2,10 @@
 # Company website
 
 
-Based on Debian Server
+ Based on Debian Server
 
-Configured with Nginx
+ Configured with Nginx
 
-Using Node / Express / Typescript / React / Redux
+ Using Node / Express / Typescript / React / Redux
 
-Also Webpack, Babel, Uglify, Jest, CircleCI...
+ Also Webpack, Babel, Uglify, Jest, CircleCI...

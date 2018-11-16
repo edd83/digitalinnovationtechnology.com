@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "jsx": true
+    }
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": "off",
+    "react/prefer-stateless-function": "off",
+    "max-len": "warn",
+    "import/no-named-as-default": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.test.*"],
+      "rules": {
+        "no-unused-vars": "off",
+        "no-undef": "off"
+      }
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+.title {
+    text-align: center;
+    display: block;
+}
+
+.blockSkills {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px;
+}
+
+.skillcontainer {
+    width: 1350px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1350px) {
+  .blockSkills {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  .skillbar {
+    display: block;
+    margin: auto;
+    width: 400px;
+  }
+
+  .skillcontainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .blockSkills {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .skillbar {
+    display: block;
+    width: 400px;
+    margin: auto;
+  }
+
+  .skillcontainer {
+    width: 100%;
+  }
+}
