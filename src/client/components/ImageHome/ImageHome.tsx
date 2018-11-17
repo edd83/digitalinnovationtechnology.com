@@ -7,7 +7,7 @@ export default class ImageHome extends React.Component {
     return (
       <div className={styles.imageHome}>
         <div className={styles.quote}>
-          Nothing is impossible.
+          Nothing is impossible,
           <br />
           when you love what you do
         </div>
