@@ -5,12 +5,16 @@ import Circle from '../Circle/Circle';
 const styles = require('./CircleList.scss');
 
 const CircleList = ({ svgs }) => {
-    const circleComponent = svgs.map((circle, i) => {
-        return <Circle source={svgs[i].source} text={svgs[i].text}/>
+    const circleArray = svgs.map((circle, id) => {
+        return <Circle 
+            key={id} 
+            source={svgs[id].source} 
+            text={svgs[id].text}
+        />
     })
     return (
         <div className={styles.circleList}>
-           {circleComponent}
+           {circleArray}
         </div>
     )
 }
