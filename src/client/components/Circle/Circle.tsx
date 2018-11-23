@@ -1,13 +1,19 @@
-import * as React from "react";
-
+import * as React from 'react'
+const development = require('../../static/svg/development.svg')
 const styles = require('./Circle.scss');
 
-export default class Circle extends React.Component {
-    render() {
-        return (
-            <div className={styles.circle}>
-                
+const Circle = (props) => {
+
+    return (
+        <div className={styles.circle}>
+            <div className={styles.circleImage}>
+                <img src={props.source} alt=""/>
             </div>
-        )
-    }
+            <div>
+                <h2>{props.text}</h2>
+            </div>
+        </div>
+    )
 }
+
+export default Circle;

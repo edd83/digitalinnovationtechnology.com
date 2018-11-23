@@ -1,3 +1,17 @@
 @import '../../style';
 
+.circle {
+    h2 {
+        color: red;
+    }
+}
 
+.circleImage {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    img {
+        width: 75px;
+}
+}
