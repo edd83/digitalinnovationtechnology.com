@@ -1,16 +1,14 @@
 import * as React from 'react'
-const development = require('../../static/svg/development.svg')
 const styles = require('./Circle.scss');
 
-const Circle = (props) => {
-
+const Circle = ({ source, text }) => {
     return (
         <div className={styles.circle}>
             <div className={styles.circleImage}>
-                <img src={props.source} alt=""/>
+                <img src={source} alt=""/>
             </div>
             <div>
-                <h2>{props.text}</h2>
+                <h2>{text}</h2>
             </div>
         </div>
     )
