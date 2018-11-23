@@ -1,22 +1,18 @@
 export const svgs = [
     {
-        id:1,
-        source: '',
+        source: '../../static/svg/innovation.svg',
         text:'New Technologies'
     },
     {
-        id:2,
-        source: '',
+        source: '../../static/svg/timer.svg',
         text:'Performance'
     },
     {
-        id:3,
-        source: '',
+        source: '../../static/svg/website.svg',
         text:'Design UI-UX'
     },
     {
-        id:4,
-        source: '',
+        source: '../../static/svg/development.svg',
         text:'Best Practices'
     }
 ]
