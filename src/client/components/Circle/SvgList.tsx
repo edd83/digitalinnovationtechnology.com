@@ -1,6 +1,6 @@
 export const svgs = [
     {
-        source: '../../static/svg/innovation.svg',
+        source: '/src/client/static/logo.png',
         text:'New Technologies'
     },
     {
