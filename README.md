@@ -1,5 +1,4 @@
 # digitalinnovationtechnology.com
-# Company website
 
 
  Based on Debian Server
